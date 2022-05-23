@@ -1,0 +1,15 @@
+#hiscorelist {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 4rem;
+
+}
+
+.hiscore{
+    font-size: 2.8rem;
+    margin-bottom: .5rem
+}
+
+.hiscore:hover{
+    transform: scale(1.025);
+}

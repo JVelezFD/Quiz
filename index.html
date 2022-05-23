@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>JavaScript Quiz App</title>
+</head>
+
+<body>
+    <main class="container">
+
+        <section id="welcome" class="flex-center, flex column ">
+            <h1>Welcome to JavaScript Quiz</h1>
+            <p>The quiz is timed</p>
+            <p>You'll attempt to solve 5 Questions</p>
+            <p>Incorrect choices will deduct time from the timer</p>
+            <p>Your Highscore can be saved at the end</p>
+            <br>
+
+            <button class="btn" id="start">Start</button>
+            <a href="./assets/html/hiscore.html"><button class="btn">Highscore</button></a>
+
+        </section>
+
+        <div id="quiz" class="justify-center flex-column hidden">
+
+
+            <!-- Question Area-->
+
+
+            <h2 id="qquestion">Questions to be answered</h2>
+            <div class="answers-container">
+                <p class="mchoice-num"> 1.</p>
+                <p class="mchoice-text" data-number="1">Choice1</p>
+            </div>
+            <div class="answers-container">
+                <p class="mchoice-num"> 2.</p>
+                <p class="mchoice-text" data-number="2">Choice2</p>
+            </div>
+            <div class="answers-container">
+                <p class="mchoice-num"> 3.</p>
+                <p class="mchoice-text" data-number="3">Choice3</p>
+            </div>
+            <div class="answers-container">
+                <p class="mchoice-num"> 4.</p>
+                <p class="mchoice-text" data-number="4">Choice4</p>
+            </div>
+
+            <!-- Overlay for Score- Quesitons left to answer-->
+
+            <div id="overlay">
+                <div id="overlay-item">
+                    <p class="overlay-pset">
+                        Score
+                    </p>
+
+                    <h1 class="overlay-mtext" id="score">
+                        0
+                    </h1>
+
+                </div>           
+            
+                <div id="overlay-item">
+                    <p class="overlay-pset">
+                        Question
+                    </p>
+
+                    <h1 class="overlay-mtext" id="qcount">
+                        
+                    </h1>
+
+                </div>     
+                
+                <div id="overlay-item">
+                    <p class="overlay-pset">
+                        Timer
+                    </p>
+
+                    <h1 class="overlay-mtext" id="timer">
+                        0
+                    </h1>
+
+                </div>          
+            </div>
+        </div>
+
+
+
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>

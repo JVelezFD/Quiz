@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finished!</title>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <main class="container">
+        <section id="finished" class="flex-center, flex column,"> Your Score 
+            <br>
+            <br>
+            <h1 id="finalScore"></h1>
+            <form>
+                <input 
+                type="text"
+                name = "initials"
+                id="initials"
+                placeholder="initials">
+
+            <button type="submit" class="btn" id="saveScoreBtn"
+                onClick="saveHiScore(event)" 
+                disabled>
+                Save
+            </button>
+            </form>
+            <br>
+            <a class="btn" href="/index.html"> Try Again</a>
+
+        </section>
+
+
+
+
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+                integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <script src="/assets/js/finished.js"></script>
+</body>
+
+</html>
