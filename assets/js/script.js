@@ -204,10 +204,10 @@ multichoice.forEach(choice =>{
             sAnswer == cQuestion.answer ? "correct" : "wrong" ;
         console.log (applyClassToAns);
 
-        //track correct answers and add to score value
+        //track correct answers and add to score value deduct time for wrong ans
          if (applyClassToAns === "correct") {
              scoreUpdate(userMCorrect);
-         }   
+         }  else {secsElapsed += 10} 
         //feedback if selected answer was correct or wrong
         sChoice.parentElement.classList.add(applyClassToAns);
 
