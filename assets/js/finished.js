@@ -35,7 +35,7 @@ saveHiScore = e =>{
     hiScore.splice(10);
 
     localStorage.setItem("hiScore", JSON.stringify(hiScore));
-    window.location.assign("/index.html")
+    window.location.assign("../../index.html")
     console.log(score);
 };
 
