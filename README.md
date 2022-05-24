@@ -5,6 +5,8 @@ This is a Quiz which is timed, questions on the fundamentals of JavaScript that 
 When user clicks start first questions is presented and timers begins. If question is answered incorrectly additional time is subtracted from timer
 When the time reaches 0 or all questions are answered the quiz ends and score and user initials are stored  in a scoreboard
 
+Link to app:  https://jvelezfd.github.io/Quiz/
+
 Here are some snippets from three parts of the quiz app (Welcome, Quiz Start, Highscore):
 
 ![QuizWelcome](https://user-images.githubusercontent.com/101678295/169906245-1ca08089-9e52-438c-85aa-defd89c63a90.PNG)
