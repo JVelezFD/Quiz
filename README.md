@@ -11,8 +11,10 @@ This is a Quiz which is timed, questions on the fundamentals of JavaScript that 
   </tr>
   </table>
   
-  ## Site
+ ## Site
   Link to app:  https://jvelezfd.github.io/Quiz/
+ ## Installation
+ No installation required just navigate to the website and click start to begin your Javascript Quiz
 
  ## Usage
 When user clicks start first questions is presented and timers begins. If question is answered incorrectly additional time is subtracted from timer
